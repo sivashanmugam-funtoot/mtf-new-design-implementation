@@ -1,0 +1,126 @@
+.mtf-container{
+    border:1px solid black;
+    width:720px;
+    height:405px;
+}
+.mtf-container .mtf-content-container{
+    padding:16px 70px;
+    width:576px;
+    height:375px;
+    border:1px solid black;
+    background:silver;
+    position: relative;
+    background: url('./mtf-background.png');
+    background-size: 100% 100%;
+}
+
+.mtf-container .mtf-content-container .mtf-header{
+    width:100%;
+    height:24%;
+    background:yellow;
+    overflow:hidden;
+    max-height:80%;
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: 1;
+    font-size:16px;
+    color:#283644;
+    line-height: 1.5;
+}
+
+.mtf-container .mtf-content-container .mtf-header .mtf-question-container{
+    top:0%;
+    max-height:300%;
+    min-height:100%;
+    padding:16px 70px;
+    background:#FFFFFF;
+    position: absolute;
+    z-index: 2;
+    overflow-y:scroll;
+}
+
+.mtf-container .mtf-content-container .mtf-header .mtf-question-container .mtf-question-text{
+    position: relative;
+}
+
+.mtf-container .mtf-content-container .mtf-header .mtf-question-container .mtf-question-text{
+    height:50px;
+    overflow: hidden;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+
+.mtf-container .mtf-content-container .mtf-header .mtf-question-container .expand-button{
+  /* Old removed
+  position: absolute; 
+  margin-top:10%; 
+  z-index: 2;
+  top:0%;
+  right:2%;
+*/  
+  
+  /* Added new */
+  position: sticky;
+  margin-top:0.5%;  
+  margin-left:88%; 
+  cursor:pointer;
+  background:skyblue;
+  border-radius: 9px;
+  width:64px;
+  height: 20px;
+  text-align: center;
+  /* display:none; */
+}
+
+
+.mtf-container .mtf-content-container .mtf-header .mtf-question-container .expand-button img{
+    height: 77%;
+    margin-top:5%;
+    -moz-transition: transform 1s;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+/* MTF LHS and RHS container styles */
+
+.mtf-container .mtf-content-container .mtf-options-container-margin{
+    height:24%;
+    width:100%;
+    opacity:0;
+    display:hidden;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container{
+    height:72%;
+    width:100%;
+    padding-top:2.8%;
+}
+/* MTF LHS and RHS horizontal styles */
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal {
+    width:100%
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img{
+    width:50%;
+    float:left;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img.lhs-image{
+    margin-right:-4px;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img.rhs-image{
+    margin-left:-4px;
+}
+
+.flip {
+    transform: rotate(-180deg);
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
