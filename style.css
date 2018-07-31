@@ -1,16 +1,14 @@
 .mtf-container{
-    border:1px solid black;
     width:720px;
     height:405px;
 }
 .mtf-container .mtf-content-container{
-    padding:16px 70px;
+    padding:0px 72px;
     width:576px;
-    height:375px;
-    border:1px solid black;
+    height:407px;
     background:silver;
     position: relative;
-    background: url('./mtf-background.png');
+    background: url('./mtf-background.svg');
     background-size: 100% 100%;
 }
 
@@ -33,7 +31,7 @@
     top:0%;
     max-height:300%;
     min-height:100%;
-    padding:16px 70px;
+    padding:16px 72px;
     background:#FFFFFF;
     position: absolute;
     z-index: 2;
@@ -64,7 +62,6 @@
   
   /* Added new */
   position: sticky;
-  margin-top:0.5%;  
   margin-left:88%; 
   cursor:pointer;
   background:skyblue;
@@ -77,8 +74,8 @@
 
 
 .mtf-container .mtf-content-container .mtf-header .mtf-question-container .expand-button img{
-    height: 77%;
-    margin-top:5%;
+    height: 60%;
+    margin-top:7%;
     -moz-transition: transform 1s;
     -webkit-transition: transform 1s;
     transition: transform 1s;
@@ -94,26 +91,61 @@
 }
 
 .mtf-container .mtf-content-container .mtf-options-container{
-    height:72%;
+    height:67.3%;
     width:100%;
-    padding-top:2.8%;
-}
-/* MTF LHS and RHS horizontal styles */
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal {
-    width:100%
+    padding:2.7% 0%;
+    font-size:14px;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal {
+    height:19%;
+    width:100%;
+    margin-bottom:0.7%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container {
     width:50%;
     float:left;
+    position: relative;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img.lhs-image{
-    margin-right:-4px;
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container{
+    margin-right:-5px;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal img.rhs-image{
-    margin-left:-4px;
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container{
+    margin-left:-5px;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container img.background-image{
+    width:100%;
+}
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container img.audio-image{
+    position: absolute;
+    height: 30%;
+    top:35%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container img.audio-image{
+    left:3.5%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container img.audio-image{
+    right:3.5%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container span.option-text{
+    position: absolute;
+    top:2%;width:83%;
+    padding:1%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container span.option-text{
+    right:3.5%;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container span.option-text{
+    left:5%;
 }
 
 .flip {
