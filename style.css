@@ -91,60 +91,59 @@
 }
 
 .mtf-container .mtf-content-container .mtf-options-container{
-    height:67.3%;
+    height:67.8%;
     width:100%;
     padding:2.7% 0%;
     font-size:14px;
 }
-
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal {
-    height:19%;
-    width:100%;
-    margin-bottom:0.7%;
-}
-
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container {
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container{
     width:50%;
     float:left;
+}
+
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block {
+    height:19%;
+    width:100%;
+    margin-bottom:1.7%;
     position: relative;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-container{
     margin-right:-5px;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container{
+.mtf-container .mtf-content-container .mtf-options-container .rhs-container{
     margin-left:-5px;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container img.background-image{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block img.background-image{
     width:100%;
 }
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container img.audio-image{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block img.audio-image{
     position: absolute;
     height: 30%;
     top:35%;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container img.audio-image{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-block img.audio-image{
     left:3.5%;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container img.audio-image{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .rhs-block img.audio-image{
     right:3.5%;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-rhs-container span.option-text{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block span.option-text{
     position: absolute;
     top:2%;width:83%;
     padding:1%;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .lhs-container span.option-text{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-block span.option-text{
     right:3.5%;
 }
 
-.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-horizontal .rhs-container span.option-text{
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .rhs-block span.option-text{
     left:5%;
 }
 

@@ -26,3 +26,9 @@ function exapndQuestionText(){
         $(".expand-button").css('top','unset');
     }
 }
+
+$(document).ready(function(){
+    $( ".rhs-container" ).sortable();
+    
+    $( ".rhs-container" ).disableSelection();
+}) 
