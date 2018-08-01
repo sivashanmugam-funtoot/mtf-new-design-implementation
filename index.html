@@ -1,76 +1,78 @@
 <html>
-    <head>
-        <link href="style.css" rel="stylesheet" type="text/css" />        
-    </head>
-    <body>
-        <div class="mtf-container">
-            <div class="mtf-content-container">
-                <div class="mtf-header" >
-                    <div class="mtf-question-container">
-                        <div class="mtf-question-text">
-                                ಒಂದು ಚೌಕವು ಒಂದು ರೋಂಬಸ್ (ಸಮಾನ ಬದಿಗಳು, ವಿರುದ್ಧ ಸಮಾನ ಕೋನಗಳು), ಗಾಳಿಪಟ (ಎರಡು ಜೋಡಿಗಳ ಸಮಾನ ಪಾರ್ಶ್ವಗಳು), ಒಂದು ಟ್ರಾಪಜೋಯ್ಡ್ (ಸಮಾನಾಂತರವಾಗಿರುವ ಒಂದು ಜೋಡಿ), ಒಂದು ಸಮಾನಾಂತರ ಚದುರಂಗದ (ಎಲ್ಲ ವಿರುದ್ಧ ಪಾರ್ಶ್ವಗಳು ಸಮಾನಾಂತರ) ಚತುರ್ಭುಜ ಅಥವಾ ಟೆಟ್ರಾಗಾನ್ (ನಾಲ್ಕು ಬದಿಗಳಿರುವ ಬಹುಭುಜಾಕೃತಿ), ಮತ್ತು a
-                        </div>
-                        <div class="expand-button" onclick="exapndQuestionText()">
-                            <img src="down_arrow.png" />
-                        </div>
+
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="mtf-container">
+        <div class="mtf-content-container">
+            <div class="mtf-header">
+                <div class="mtf-question-container">
+                    <div class="mtf-question-text">
+                        ಒಂದು ಚೌಕವು ಒಂದು ರೋಂಬಸ್ (ಸಮಾನ ಬದಿಗಳು, ವಿರುದ್ಧ ಸಮಾನ ಕೋನಗಳು), ಗಾಳಿಪಟ (ಎರಡು ಜೋಡಿಗಳ ಸಮಾನ ಪಾರ್ಶ್ವಗಳು), ಒಂದು ಟ್ರಾಪಜೋಯ್ಡ್ (ಸಮಾನಾಂತರವಾಗಿರುವ
+                        ಒಂದು ಜೋಡಿ), ಒಂದು ಸಮಾನಾಂತರ ಚದುರಂಗದ (ಎಲ್ಲ ವಿರುದ್ಧ ಪಾರ್ಶ್ವಗಳು ಸಮಾನಾಂತರ) ಚತುರ್ಭುಜ ಅಥವಾ ಟೆಟ್ರಾಗಾನ್ (ನಾಲ್ಕು
+                        ಬದಿಗಳಿರುವ ಬಹುಭುಜಾಕೃತಿ), ಮತ್ತು a
+                    </div>
+                    <div class="expand-button" onclick="exapndQuestionText()">
+                        <img src="down_arrow.png" />
                     </div>
                 </div>
-                <div class="mtf-options-container-margin" ></div>
-                <div class="mtf-options-container">
-                    <div class="mtf-options-vertical-container">
-                        <div class="lhs-rhs-vertical">
-                            <div class="lhs-rhs-container lhs-container">
-                                <img class="background-image" src="./assets/shape1.png" />
-                                <img class="option-image" src="./assets/sample-images/tree.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
-                            <div class="lhs-rhs-container rhs-container">
-                                <img class="background-image" src="./assets/shape2.png" />
-                                <img class="option-image" src="./assets/sample-images/lion-cub.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
+            </div>
+            <div class="mtf-options-container-margin"></div>
+            <div class="mtf-options-container">
+                <div class="mtf-options-vertical-container">
+                    <div class="lhs-rhs-container lhs-container">
+                        <div class="lhs-rhs-block lhs-block">
+                            <img class="background-image" src="./assets/shape1.png" />
+                            <img class="option-image" src="./assets/sample-images/tree.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
                         </div>
-                        <div class="lhs-rhs-vertical">
-                            <div class="lhs-rhs-container lhs-container">
-                                <img class="background-image" src="./assets/shape1.png" />
-                                <img class="option-image" src="./assets/sample-images/hen.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
-                            <div class="lhs-rhs-container rhs-container">
-                                <img class="background-image" src="./assets/shape2.png" />
-                                <img class="option-image" src="./assets/sample-images/seed.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
+                        <div class="lhs-rhs-block lhs-block">
+                            <img class="background-image" src="./assets/shape1.png" />
+                            <img class="option-image" src="./assets/sample-images/hen.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
                         </div>
-                        <div class="lhs-rhs-vertical">
-                            <div class="lhs-rhs-container lhs-container">
-                                <img class="background-image" src="./assets/shape1.png" />
-                                <img class="option-image" src="./assets/sample-images/lion.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
-                            <div class="lhs-rhs-container rhs-container">
-                                <img class="background-image" src="./assets/shape2.png" />
-                                <img class="option-image" src="./assets/sample-images/laugh.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
+                        <div class="lhs-rhs-block lhs-block">
+                            <img class="background-image" src="./assets/shape1.png" />
+                            <img class="option-image" src="./assets/sample-images/lion.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
                         </div>
-                        <div class="lhs-rhs-vertical">
-                            <div class="lhs-rhs-container lhs-container">
-                                <img class="background-image" src="./assets/shape1.png" />
-                                <img class="option-image" src="./assets/sample-images/people.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
-                            <div class="lhs-rhs-container rhs-container">
-                                <img class="background-image" src="./assets/shape2.png" />
-                                <img class="option-image" src="./assets/sample-images/chicken.png" />
-                                <img class="audio-image" src="./assets/audio3.png" />
-                            </div>
+                        <div class="lhs-rhs-block lhs-block">
+                            <img class="background-image" src="./assets/shape1.png" />
+                            <img class="option-image" src="./assets/sample-images/people.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
+                        </div>
+                    </div>
+                    <div class="lhs-rhs-container rhs-container">
+                        <div class="lhs-rhs-block rhs-block">
+                            <img class="background-image" src="./assets/shape2.png" />
+                            <img class="option-image" src="./assets/sample-images/lion-cub.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
+                        </div>
+                        <div class="lhs-rhs-block rhs-block">
+                            <img class="background-image" src="./assets/shape2.png" />
+                            <img class="option-image" src="./assets/sample-images/seed.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
+                        </div>
+                        <div class="lhs-rhs-block rhs-block">
+                            <img class="background-image" src="./assets/shape2.png" />
+                            <img class="option-image" src="./assets/sample-images/laugh.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
+                        </div>
+                        <div class="lhs-rhs-block rhs-block">
+                            <img class="background-image" src="./assets/shape2.png" />
+                            <img class="option-image" src="./assets/sample-images/chicken.png" />
+                            <img class="audio-image" src="./assets/audio3.png" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-    <script src="jquery.min.js" ></script>
-    <script src="main.js" ></script>
+    </div>
+</body>
+<script src="jquery.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="main.js"></script>
+
 </html>
