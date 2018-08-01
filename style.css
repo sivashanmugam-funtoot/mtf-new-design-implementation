@@ -91,7 +91,7 @@
 }
 
 .mtf-container .mtf-content-container .mtf-options-container{
-    height:67.8%;
+    height:66.8%;
     width:100%;
     padding:2.7% 0%;
     font-size:14px;
@@ -108,6 +108,10 @@
     position: relative;
 }
 
+.mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .rhs-block:hover {
+    cursor: move;
+}
+
 .mtf-container .mtf-content-container .mtf-options-container .lhs-container{
     margin-right:-5px;
 }
@@ -120,6 +124,7 @@
     width:100%;
 }
 .mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block img.audio-image{
+    cursor: pointer;
     position: absolute;
     height: 30%;
     top:35%;
@@ -135,8 +140,12 @@
 
 .mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-rhs-block span.option-text{
     position: absolute;
-    top:2%;width:83%;
+    width:83%;
     padding:1%;
+    top:0;
+    bottom:0;
+    margin:auto;
+    display:inline-table;
 }
 
 .mtf-container .mtf-content-container .mtf-options-container .lhs-rhs-container .lhs-block span.option-text{
