@@ -14,8 +14,6 @@ function exapndQuestionText(){
         $(".expand-button").css('bottom','unset');
         $(".expand-button").css('top','0%');
         $(".expand-button").toggleClass('flip');
-
-
     } else {
         $('.mtf-header').css('overflow', 'visible');
         $('.mtf-question-text').css('overflow', 'unset');
