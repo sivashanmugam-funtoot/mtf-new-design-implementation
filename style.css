@@ -6,9 +6,8 @@
     padding:0px 72px;
     width:576px;
     height:407px;
-    background:silver;
     position: relative;
-    background: url('./mtf-background.svg');
+    background:#48DCB6;
     background-size: 100% 100%;
 }
 
@@ -28,6 +27,7 @@
 }
 
 .mtf-container .mtf-content-container .mtf-header .mtf-question-container{
+    width:100%;
     top:0%;
     max-height:300%;
     min-height:100%;

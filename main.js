@@ -29,6 +29,5 @@ function exapndQuestionText(){
 
 $(document).ready(function(){
     $( ".rhs-container" ).sortable();
-    
     $( ".rhs-container" ).disableSelection();
 }) 
